@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
+import React from 'react';
 
-function useEffectDemo() {
-  const [count, setCount] = useState(0);
+function EffectExample() {
+  const [count, setCount] = React.useState(0);
 
-  useEffect(() => {
+  React.useEffect(() => {
     document.title = `Count: ${count}`;
   }, [count]);
 
@@ -15,4 +15,4 @@ function useEffectDemo() {
   );
 }
 
-export default useEffectDemo;
+export default EffectExample;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function useEffectUseCase() {
+function FetchDataExample() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -16,4 +16,4 @@ function useEffectUseCase() {
   );
 }
 
-export default useEffectUseCase;
+export default FetchDataExample;
